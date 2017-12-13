@@ -1,0 +1,55 @@
+body, html {
+    background-color: orange; /* 2.4 web oldal háttérszíne narancs */
+    font-family: verdana, arial, sans serif;
+}
+
+footer { /* 2.12 */
+    margin: 30px;
+    font-size: 14pt;
+    font-style: italic;
+    float: left;
+}
+
+#container {
+    width: 960px; /* 2.5 */
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: cornsilk; /* 2.5 */
+    padding: 30px;
+}
+
+h1 { /* 2.7, 2.8 */
+    margin-top: 0px;
+    border-bottom: 6px double orange;
+    text-align: center;
+    font-size: 28pt;
+}
+
+img { /* 2.10 */
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+    border: 2px solid orange;
+}
+
+h2 { /* 2.7, 2.8 */
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    padding-top: 5px;
+    padding-bottom : 5px;
+    margin-right: 50%;
+}
+
+p { /* 2.7 */
+    text-indent: 30px;
+    text-align: justify;
+}
+
+ul { /* 2.9 */
+    margin-left: 80px;
+}
+
+li { /* 2.9 */
+    margin-bottom: 5px;
+    text-align: justify;
+}
